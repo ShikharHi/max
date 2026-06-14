@@ -1,0 +1,14 @@
+# JARVIS FastAPI Server — dependencies
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+aiosqlite>=0.20.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LangGraph + LangChain (match your existing project versions)
+langgraph>=0.2.0
+langchain-core>=0.2.0
+langchain-groq>=0.1.0
+
+# Rich (used by core JARVIS nodes)
+rich>=13.0.0

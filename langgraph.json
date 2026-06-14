@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "jarvis": "core.graph:build_graph_for_server"
+    },
+    "env": ".env"
+}

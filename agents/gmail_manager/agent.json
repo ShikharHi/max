@@ -1,0 +1,15 @@
+{
+  "name": "Gmail_manager",
+  "display_name": "Gmail Manager Agent",
+  "description": "Manages Gmail actions via the Gmail MCP server, including searching, reading, replying, sending, archiving, labeling, and viewing threads.",
+  "type": "agent",
+  "version": "1.0.0",
+  "active": true,
+  "input_schema": {
+    "text": "string (natural-language request)",
+    "thread_id": "string (optional Gmail thread ID)",
+    "message_id": "string (optional Gmail message ID)",
+    "action": "string (optional specific Gmail action)"
+  },
+  "tags": ["gmail", "email", "communication"]
+}

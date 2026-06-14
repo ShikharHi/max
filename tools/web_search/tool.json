@@ -1,0 +1,11 @@
+{
+  "name": "web_search",
+  "display_name": "Web Search",
+  "description": "Search the web for current information, news, and facts using a query string.",
+  "version": "1.0.0",
+  "active": true,
+  "input_schema": {
+    "query": "string"
+  },
+  "tags": ["search", "internet", "lookup"]
+}

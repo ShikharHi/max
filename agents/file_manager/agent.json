@@ -1,0 +1,14 @@
+{
+  "name": "File_manager",
+  "display_name": "File Manager Agent",
+  "description": "Manages file operations such as creating, reading, updating, and deleting files. and to get dir list and file list and alll types of file management operations",
+  "type": "agent",
+  "version": "1.0.0",
+  "active": true,
+  "input_schema": {
+    "text": "string (natural-language request or folder name)",
+    "path": "string (optional directory path)",
+    "style": "string: dir_list | file_list | query"
+  },
+  "tags": ["file", "management"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Calendar_manager",
+  "display_name": "Calendar Manager Agent",
+  "description": "Manages Google Calendar tasks via the Google Calendar MCP server, including listing events, searching, creating, updating, deleting, and responding to invitations.",
+  "type": "agent",
+  "version": "1.0.0",
+  "active": true,
+  "input_schema": {
+    "text": "string (natural-language request)",
+    "date": "string (optional date or date range)",
+    "calendarId": "string (optional calendar ID)",
+    "action": "string (optional specific calendar action)"
+  },
+  "tags": ["calendar", "google calendar", "scheduling", "events"]
+}
