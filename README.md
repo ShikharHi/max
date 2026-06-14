@@ -122,8 +122,7 @@ async def run(input_data: dict, model: ChatAnthropic) -> str:
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
+export GROQ_API_KEY=sk-ant-...
 python jarvis.py
 ```
-# max
-# max
+
